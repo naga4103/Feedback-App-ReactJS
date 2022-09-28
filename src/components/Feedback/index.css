@@ -1,0 +1,100 @@
+/* Write your CSS code here. */
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px red;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  . heading {
+    font-size: 35px;
+    padding-top: 20px;
+  }
+}
+.emojis-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emoji {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.emoji-title {
+  font-size: 12px;
+  font-weight: 800;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-heading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+}
+.thankyou-message {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
